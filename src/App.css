@@ -1,0 +1,133 @@
+.powerbi-image-container {
+  background: linear-gradient(darkorange, lightgray);
+  text-align: center; 
+  padding: 20px; 
+}
+
+.powerbi-image {
+  max-width: 200%;
+  max-height: 300px; 
+  height: auto;
+  margin-bottom: 20px;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: darkorange;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  width: 100%;
+}
+
+.navbar-button {
+  background-color: white;
+  color: darkorange;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navbar-button:hover {
+  background-color: lightgray;
+}
+
+.dropdown {
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+}
+
+label {
+  margin: 10px 0 5px;
+}
+
+input, button {
+  margin-bottom: 15px;
+}
+h1 {
+  text-align: center;
+}
+.centered-title {
+  text-align: center;
+}
+.container h2, .container p {
+  text-align: center;
+}
+.container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h1, h2, p {
+  color: #333;
+  text-align: center;
+}
+
+.centered-title {
+  text-align: center;
+}
+
+.container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  text-align: justify;
+  color: #666;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom right, darkorange, lightgray);
+}
+
+.container {
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background: linear-gradient(to top left, darkorange, lightgray);
+}
+
+h1, h2, p {
+  color: #333;
+  text-align: center;
+}
+
+.centered-title {
+  text-align: center;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  background: linear-gradient(to bottom right, darkorange, lightgray);
+  padding: 20px;
+}
